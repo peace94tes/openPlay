@@ -16,9 +16,9 @@ video {
 }
 
 time.op-controls__current {
-  font-size: 0;
+  font-size: 0px !important;
 }
 time.op-controls__current:after {
-  font-size: 0.85rem;
-  content: 'PEACE-TV';
+  font-size: 0.85rem !important;
+  content: 'PEACE-TV' !important;
 }
