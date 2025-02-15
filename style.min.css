@@ -14,3 +14,11 @@ video {
 .video-fill {
   object-fit: fill cover;
 }
+
+time.op-controls__current {
+  font-size: 0;
+}
+time.op-controls__current:after {
+  font-size: 0.85rem;
+  content: 'PEACE-TV';
+}
