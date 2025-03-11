@@ -22,3 +22,17 @@ time.op-controls__current:after {
   font-size: 0.85rem !important;
   content: 'PEACE-TV' !important;
 }
+
+.op-player__unmute {
+position: absolute;
+top: 10px;
+left: 13.5%;
+/*background-color: #20BB2E;*/
+background-color: rgb(32,178,170,.7);
+padding: 2px 5px;
+font-size: 0.7em;
+color: white;
+border: 1px solid rgba(255,255,255,.6);
+border-radius: 3px;
+z-index: 3;
+}
