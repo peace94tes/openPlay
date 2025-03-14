@@ -1,0 +1,38 @@
+body {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  background-color: #000000;
+  overflow: hidden;
+}
+
+video {
+  width: 100% !important;
+  height: 100% !important;
+}
+
+.video-fill {
+  object-fit: fill cover;
+}
+
+time.op-controls__current {
+  font-size: 0px !important;
+}
+time.op-controls__current:after {
+  font-size: 0.85rem !important;
+  content: 'PEACE-TV' !important;
+}
+
+div.op-player__unmute {
+  position: absolute;
+  top: 10px;
+  right: 13.5%;
+  /*background-color: #20BB2E;*/
+  background-color: rgb(32,178,170,.7);
+  padding: 3px 5px;
+  font-size: 0.8em;
+  color: white;
+  border: 1px solid rgba(255,255,255,.6);
+  border-radius: 3px;
+  z-index: 3;
+}
